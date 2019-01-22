@@ -10,7 +10,6 @@
 		235F35BC21F788AA0070EDE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235F35BB21F788AA0070EDE5 /* AppDelegate.swift */; };
 		235F35BE21F788AA0070EDE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 235F35BD21F788AA0070EDE5 /* ViewController.swift */; };
 		235F35C121F788AA0070EDE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 235F35BF21F788AA0070EDE5 /* Main.storyboard */; };
-		235F35C421F788AA0070EDE5 /* UserLocationMap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 235F35C221F788AA0070EDE5 /* UserLocationMap.xcdatamodeld */; };
 		235F35C621F788AB0070EDE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 235F35C521F788AB0070EDE5 /* Assets.xcassets */; };
 		235F35C921F788AB0070EDE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 235F35C721F788AB0070EDE5 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,7 +19,6 @@
 		235F35BB21F788AA0070EDE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		235F35BD21F788AA0070EDE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		235F35C021F788AA0070EDE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		235F35C321F788AA0070EDE5 /* UserLocationMap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UserLocationMap.xcdatamodel; sourceTree = "<group>"; };
 		235F35C521F788AB0070EDE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		235F35C821F788AB0070EDE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		235F35CA21F788AB0070EDE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,7 +60,6 @@
 				235F35C521F788AB0070EDE5 /* Assets.xcassets */,
 				235F35C721F788AB0070EDE5 /* LaunchScreen.storyboard */,
 				235F35CA21F788AB0070EDE5 /* Info.plist */,
-				235F35C221F788AA0070EDE5 /* UserLocationMap.xcdatamodeld */,
 			);
 			path = UserLocationMap;
 			sourceTree = "<group>";
@@ -138,7 +135,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				235F35C421F788AA0070EDE5 /* UserLocationMap.xcdatamodeld in Sources */,
 				235F35BE21F788AA0070EDE5 /* ViewController.swift in Sources */,
 				235F35BC21F788AA0070EDE5 /* AppDelegate.swift in Sources */,
 			);
@@ -287,6 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LF78THV97C;
 				INFOPLIST_FILE = UserLocationMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -304,6 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LF78THV97C;
 				INFOPLIST_FILE = UserLocationMap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -338,19 +336,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		235F35C221F788AA0070EDE5 /* UserLocationMap.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				235F35C321F788AA0070EDE5 /* UserLocationMap.xcdatamodel */,
-			);
-			currentVersion = 235F35C321F788AA0070EDE5 /* UserLocationMap.xcdatamodel */;
-			path = UserLocationMap.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 235F35B021F788AA0070EDE5 /* Project object */;
 }
